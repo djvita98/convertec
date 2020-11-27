@@ -1,0 +1,65 @@
+<html>
+<title> Conversion </title>
+<link rel="stylesheet" type="text/css" href="css/conversion.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/enlace-boton.css" media="screen" />
+
+<link link rel="icon" type="image/png" href="img\logo.png" />
+
+<body background= fondo\fondo.png >
+
+<h2>
+<img class="logo" src="img/logo - pagina.png">
+<img class="titulo" src="img\convertec1.png">
+</h2>
+
+<div class="button">
+<div class="square1"><a href="conversion-moneda.html">Moneda</a></div>
+<div class="square2"><a href="conversion-longitud.html">Longitud</a></div>
+<div class="square3"><a href="conversion-temperatura.html">Temperatura</a></div>
+</div>
+<br>
+<div class="conver">
+<h1>Convertidor de Longitud</h1>
+
+<p>Ingrese el dígito en metros: <input type = "text" id = "metros"></p>
+<div class="bot">
+<input type = "button" value = "convertir a milimetros" onclick = "convertir_a_milimetro(
+		document.getElementById('metros').value)">
+
+<input type = "button" value = "convertir a centimetros" onclick = "convertir_a_centimetro(
+		document.getElementById('metros').value)">
+
+<input type = "button" value = "convertir a kilometros" onclick = "convertir_a_kilometro(
+		document.getElementById('metros').value)">
+		
+</div>
+<p></>
+<div class ="bot1"> 
+
+<input type = "button" value = "convertir a pies" onclick = "convertir_a_pie(
+		document.getElementById('metros').value)">
+		
+<input type = "button" value = "convertir a pulgadas" onclick = "convertir_a_pulgada(
+		document.getElementById('metros').value)">
+		
+<input type = "button" value = "convertir a Yardas" onclick = "convertir_a_yarda(
+		document.getElementById('metros').value)">
+		
+</div>
+<p></p>
+<p>el valor convertido son: <p class ="mostrar" id="total"/></p>
+</div>
+<h3>
+<a href="index.html">¿Qué es?</a>
+</h3>
+<h4>
+<a href="proposito.html">Propósito</a>
+</h4>
+<h5>
+<a href="contacto.html">Contacto</a>
+</h5>
+
+<script src="javascript\longitud.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<html>
+<title> Conversion </title>
+<link rel="stylesheet" type="text/css" href="css/conversion.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/enlace-boton.css" media="screen" />
+
+<link link rel="icon" type="image/png" href="img\logo.png" />
+
+<body background= fondo\fondo.png >
+
+<h2>
+<img class="logo" src="img/logo - pagina.png">
+<img class="titulo" src="img\convertec1.png">
+</h2>
+
+<div class="button">
+<div class="square1"><a href="conversion-moneda.html">Moneda</a></div>
+<div class="square2"><a href="conversion-longitud.html">Longitud</a></div>
+<div class="square3"><a href="conversion-temperatura.html">Temperatura</a></div>
+</div>
+<br>
+<div class="conver">
+<h1>Convertidor de Moneda</h1>
+
+<p>Ingrese el número en pesos: <input type = "text" id = "pesos"></p>
+<div class="bot">
+<input type = "button" value = "convertir a dolares" onclick = "convertir_a_dolares(
+		document.getElementById('pesos').value)">
+
+<input type = "button" value = "convertir a yenes" onclick = "convertir_a_yenes(
+		document.getElementById('pesos').value)">
+
+<input type = "button" value = "convertir a soles" onclick = "convertir_a_soles(
+		document.getElementById('pesos').value)">
+		
+<input type = "button" value = "convertir a euros" onclick = "convertir_a_euros(
+		document.getElementById('pesos').value)">
+
+
+</div>
+<p></p>
+<p>el valor convertido son: <p class ="mostrar" id="total"/></p>
+</div>
+<h3>
+<a href="index.html">¿Qué es?</a>
+</h3>
+<h4>
+<a href="proposito.html">Propósito</a>
+</h4>
+<h5>
+<a href="contacto.html">Contacto</a>
+</h5>
+
+<script src="javascript\moneda.js"> </script>
+</body>
+
+</html>

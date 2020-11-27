@@ -1,0 +1,51 @@
+h3{
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-left:25%;
+  margin-right:870px;
+  background-color: #009E0F;
+  font-family: Calibri, sans-serif;
+  font-weight: bolder;
+  font-size: 150%; 
+  color: white;
+  position: relative;
+  top: -230px;
+  right: 200px;
+
+}
+
+h4{
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-left:25%;
+  margin-right:870px;
+  background-color: #009E0F;
+  font-family: Calibri, sans-serif;
+  font-weight: bolder;
+  font-size: 150%; 
+  color: white;
+  position: relative;
+  top: -230px;
+  right: 200px;
+
+}
+
+h5{
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-left:25%;
+  margin-right:870px;
+  background-color: #009E0F;
+  font-family: Calibri, sans-serif;
+  font-weight: bolder;
+  font-size: 150%; 
+  color: white;
+  position: relative;
+  top: -230px;
+  right: 200px;
+
+}
+
+a{
+color: white;
+}

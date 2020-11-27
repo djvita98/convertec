@@ -1,0 +1,64 @@
+<html>
+<title> Conversion </title>
+<link rel="stylesheet" type="text/css" href="css/conversion.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/enlace-boton.css" media="screen" />
+
+<link link rel="icon" type="image/png" href="img\logo.png" />
+
+<body background= fondo\fondo.png >
+
+<h2>
+<img class="logo" src="img/logo - pagina.png">
+<img class="titulo" src="img\convertec1.png">
+</h2>
+
+<div class="button">
+<div class="square1"><a href="conversion-moneda.html">Moneda</a></div>
+<div class="square2"><a href="conversion-longitud.html">Longitud</a></div>
+<div class="square3"><a href="conversion-temperatura.html">Temperatura</a></div>
+</div>
+<br>
+<div class="conver">
+<h1>Convertidor de Temperatura</h1>
+
+<p>Ingrese el digito a convertir: <input type = "text" id = "digito"></p>
+<div class="bot">
+<input type = "button" value = "de °C a °F" onclick = "convertir_a_fahrenheit(
+		document.getElementById('digito').value)">
+
+<input type = "button" value = "de °F a °C" onclick = "convertir_a_Celsius(
+		document.getElementById('digito').value)">
+
+<input type = "button" value = "de °C a K" onclick = "convertir_a_K(
+		document.getElementById('digito').value)">
+		
+</div>
+<p></>
+<div class="bot1">
+<input type = "button" value = "de °F a K" onclick = "convertir_a_Kelvin1(
+		document.getElementById('digito').value)">
+		
+<input type = "button" value = "de K a °F" onclick = "convertir_a_fahrenheit1(
+		document.getElementById('digito').value)">
+
+<input type = "button" value = "de K a °C" onclick = "convertir_a_Celsius1(
+		document.getElementById('digito').value)">
+
+</div>
+<p></p>
+<p>el valor convertido son: <p class ="mostrar" id="total"/></p>
+</div>
+<h3>
+<a href="index.html">¿Qué es?</a>
+</h3>
+<h4>
+<a href="proposito.html">Propósito</a>
+</h4>
+<h5>
+<a href="contacto.html">Contacto</a>
+</h5>
+
+<script src="javascript\temperatura.js"> </script>
+</body>
+
+</html>

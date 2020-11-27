@@ -1,0 +1,136 @@
+
+.conver{
+  padding: 3px 10px;
+  border: white 5px solid;
+  border-radius: 20px;
+  margin-left:25%;
+  margin-right:25%;
+  background-color: white;
+}
+
+h1{
+ margin-left:25%;
+ margin-right:25%;
+ font-family: "Segoe UI", sans-serif;
+ font-size: 145%;
+ font-style: oblique;
+ text-align: center;
+}
+
+h3, h4, h5{
+	
+	text-align: center;
+}
+
+p{
+ font-family: Calibri, sans-serif;
+ font-weight: bolder;
+ font-size: 20px;
+ text-align: center;
+ 
+}
+
+.logo {
+
+position: relative;
+top: 3px;
+left: 30px;
+
+}
+
+.titulo{
+
+position: relative;
+top: -30px;
+left: 230px;
+
+}
+
+h2{
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin-left:10%;
+  margin-right:10%;
+  background: linear-gradient(90deg, rgb(0%, 50%, 76%), rgb(0%, 56%, 15%));
+  position: relative;
+  top: -5px;
+}
+
+.button {
+	margin-left:25%;
+    margin-right:25%;
+	font-family: Helvetica, Arial; 
+	font-weight: bold; 
+    font-size: 20px;	
+	color: #ffffff;
+	text-align:center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.square1{
+	margin: 0;
+	width: 150px;
+	height: 25px;
+	background-color: #009E0F;
+	border-radius: 10px;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+.square1:hover{
+	background-color: 00324C;
+	transition-property: background-color;
+	transition-duration: 1s;
+
+}
+
+.square2{
+	margin: 0;
+	width: 150px;
+	height: 25px;
+	background-color: #009E0F;
+	border-radius: 10px;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+.square2:hover{
+	background-color: 00324C;
+	transition-property: background-color;
+	transition-duration: 1s;
+
+}
+
+.square3{
+	margin: 0;
+	width: 150px;
+	height: 25px;
+	background-color: #009E0F;
+	border-radius: 10px;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+.square3:hover{
+	background-color: 00324C;
+	transition-property: background-color;
+	transition-duration: 1s;
+
+}
+
+.bot {
+	display: flex;
+	justify-content: space-around;
+}
+
+.mostrar {
+ font-family: "Segoe UI", sans-serif;
+ font-size: 100%;
+ font-style: oblique;
+}
+
+.bot1 {
+	display: flex;
+	justify-content: space-around;
+}
